@@ -14,7 +14,7 @@ def main():
 
   after_tax = pre_tax * (1 + tax["ON"])
 
-  print(after_tax)
+  print("Price after tax: " + after_tax)
 
 if __name__ == '__main__':
   main()
